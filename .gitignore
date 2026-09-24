@@ -1,0 +1,22 @@
+# Runtime data: can contain task names, error messages, and local identifiers.
+retry_state.json
+retry_controller_service.lock
+logs/
+
+# Local notification credential (Windows DPAPI encrypted).
+wecom_webhook.dpapi
+
+# Each installation must create this from retry_config.example.json.
+retry_config.json
+
+# Python and test artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local editor settings and operating-system files.
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
